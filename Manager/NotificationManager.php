@@ -343,7 +343,7 @@ class NotificationManager
      *
      * @return array
      */
-    private function handleHttpResponse(
+    public function handleHttpResponse(
         array $httpResponse,
         array $notificationContentModels
     ): array
